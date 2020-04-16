@@ -1,0 +1,39 @@
+{
+    "name": "onix-ni-proxy",
+    "version": "1.0.0",
+    "description": "simple proxy server",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yamyn/onix-ni-proxy.git"
+    },
+    "author": "Yaroslav Mynchenko",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/yamyn/onix-ni-proxy/issues"
+    },
+    "dependencies": {
+        "cheerio": "1.0.0-rc.3",
+        "commitizen": "4.0.4",
+        "dom-serializer": "^0.2.2",
+        "editorconfig": "0.15.3",
+        "eslint": "6.8.0",
+        "eslint-config-airbnb-base": "14.1.0",
+        "eslint-plugin-import": "2.20.2",
+        "http": "0.0.1-security",
+        "http-proxy": "1.18.0",
+        "request": "2.88.2"
+    },
+    "devDependencies": {
+        "cz-conventional-changelog": "3.1.0"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    }
+}

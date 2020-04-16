@@ -65,18 +65,6 @@ class ProxyService {
         }
     }
 }
-/**
- * @method addData
- * @param {pageData}
- * @returns {any}
- */
-function returnGzipDataPage(pageData) {
-    return new Promise(resolve => {
-        zlib.gzip(pageData, (err, encoded) => {
-            resolve(encoded);
-        });
-    });
-}
 
 module.exports = {
     ProxyService,

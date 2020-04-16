@@ -28,7 +28,7 @@ async function getPage(req, res) {
             res.end();
         }
     } catch (error) {
-        res.write('Errr', error);
+        res.write(error);
     }
 }
 
